@@ -10,7 +10,6 @@ import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ProjectManager from './components/ProjectManager';
-import ProfileManager from './components/ProfileManager';
 
 function App() {
   return (
@@ -34,7 +33,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project-manager" element={<ProjectManager />} />
-          <Route path="/profile" element={<ProfileManager />} />
         </Routes>
       </div>
     </Router>
