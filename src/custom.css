@@ -1,17 +1,43 @@
-/* ... previous styles ... */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+#about, #projects, #contact {
+  padding-top: 60px;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.badge {
+  margin-right: 5px;
+}
 
 @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-    
-    #home {
-      text-align: center;
-    }
-    
-    .navbar-nav {
-      text-align: center;
-    }
+  h1 {
+    font-size: 2rem;
   }
   
+  #home {
+    text-align: center;
+  }
   
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
