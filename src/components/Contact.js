@@ -33,9 +33,9 @@ function Contact() {
           <p><FaMapMarkerAlt className="me-2 text-primary" /> Jakarta, Indonesia</p>
           <div className="mt-4">
             <h4>Ikuti Saya</h4>
-            <a href="#" className="me-3 text-dark"><FaTwitter size={24} /></a>
-            <a href="#" className="me-3 text-dark"><FaLinkedin size={24} /></a>
-            <a href="#" className="me-3 text-dark"><FaGithub size={24} /></a>
+            <a href="https://twitter.com/yourusername" className="me-3 text-dark"><FaTwitter size={24} /></a>
+            <a href="https://linkedin.com/in/yourusername" className="me-3 text-dark"><FaLinkedin size={24} /></a>
+            <a href="https://github.com/yourusername" className="me-3 text-dark"><FaGithub size={24} /></a>
           </div>
         </Col>
       </Row>
